@@ -5,7 +5,7 @@ u_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 name TEXT NOT NULL, 
 password TEXT NOT NULL, 
 email TEXT NOT NULL );
-INSERT INTO user VALUES(1,'flightAdmin','33d87fd364516f6604124fcc76fdd279','admin@admin.com');
+INSERT INTO user VALUES(1,'mingma.sherpa','33d87fd364516f6604124fcc76fdd279','admin@admin.com');
 CREATE TABLE flightDetails ( 
 d_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
 name TEXT NOT NULL, 
